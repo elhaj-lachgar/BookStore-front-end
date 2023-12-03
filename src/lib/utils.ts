@@ -24,3 +24,17 @@ export function FormatPrice(
     maximumFractionDigits : 2 
   }).format(price);
 } 
+
+
+export interface BookContainerProps {
+  ISBN: number;
+  title: string;
+  author: string;
+  summary: string;
+  image: string;
+  price: {
+    currency: string;
+    value: number;
+    displayValue: string;
+  };
+}

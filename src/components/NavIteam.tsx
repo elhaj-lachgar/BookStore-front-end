@@ -6,8 +6,6 @@ import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import {useRef} from "react"
-import { UseOnClickOutSide } from "@/hook/UseOnClickOutSide";
 
 type NavCategore = (typeof NAVBAR_CATEGORES)[number];
 
